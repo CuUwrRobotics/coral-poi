@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(template-opencv)
+project(coral-poi)
 
 set(OpenCV_DIR $ENV{OpenCV_DIR})
 find_package(OpenCV)

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>template-opencv</name>
+  <name>coral-poi</name>
   <version>0.1.0</version>
-  <description>Task x.x: DESCRIBE YOU PROGRAM HERE!</description>
+  <description>Task 2.1: Mapping coral POIs.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example: -->
