@@ -2,7 +2,7 @@
  * @Author: Nick Steele <nichlock>
  * @Date:   18:41 Sep 13 2020
  * @Last modified by:   Nick Steele
- * @Last modified time: 21:35 Sep 24 2020
+ * @Last modified time: 19:47 Oct 01 2020
  */
 
 /**
@@ -62,7 +62,7 @@ int main(int argc, char const *argv[]) {
                  0); // Minvalue
 
   /*
-   ********* Mind-blowing algoriths and code go here
+   ********* Mind-blowing algorithms and code go here
    */
 
   while (true) {
@@ -75,7 +75,7 @@ int main(int argc, char const *argv[]) {
 
     /*
      *
-     ********* Mind-blowing algoriths and code (that use the trackbars) go here
+     ********* Mind-blowing algorithms and code (that use the trackbars) go here
      *
      */
 

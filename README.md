@@ -13,11 +13,12 @@ This has the code to run a program that will open an image, load it for OpenCV, 
 
 -   `cd ros-docker`
 -   `make` (creates the Docker container and puts code in it)
--   Once it finishes making the docker container, detach (`^P` then `^Q` - where `^` means `ctrl-`)
--   `docker exec -it piranhabot_container bash` (This will enter the container for the Linux system)
+-   Once it finishes making the docker container, detach (`^P` then `^Q` where `^` means `ctrl-`)
+-   `docker exec -it piranhabot_container bash`(This will enter the container for the Linux system)
 -   `cd ~/catkin_make`
--   `make` (this will build the actual code)
--   `rosrun template-opencv template-opencv` (run the built code)
--   An image should show up! (Make sure MobaXterm is running.)
+-   `make` (this will build/link the actual code)
+-   `rosrun template-opencv template-opencv` (runs C++ executable that was built by running `make`)
+-   `rosrun template-opencv main.py` (runs Python code that was linked by running `make`)
+-   An image should show up for both! (Make sure MobaXterm is running.)
 
 [Check out the workflow information for how to use our repositories!](https://github.com/CuUwrRobotics/workflow)
