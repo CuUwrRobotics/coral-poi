@@ -9,7 +9,7 @@
 
 This has the code to run a program that will open an image, load it for OpenCV, and allow you to modify it, and go from there. It's written in C++, but you can use Python if preferred. If you use C++, I highly recommend using the existing code as the starting point for your code! It's all 'boiler plate' code, so there's no reason to rewrite it.
 
-# HOW TO USE THIS TEMPLATE
+# How to Run the Code
 
 -   `cd ros-docker`
 -   `make` (creates the Docker container and puts code in it)
